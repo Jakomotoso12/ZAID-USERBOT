@@ -5,7 +5,7 @@ API_HASH = getenv("API_HASH", "a962246f34b396b42287348251860b38") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5641664090 5386704284").split()))
 OWNER_ID = int(getenv("OWNER_ID", "5386704284"))
-MONGO_URL = getenv("MONGO_URL,"mongodb+srv://Cloner:Cloner@cluster0.cgc6t.mongodb.net/?retryWrites=true&w=majority")
+MONGO_URL = getenv("MONGO_URL,"mongodb+srv://Garw:garw@cluster0.tmib6.mongodb.net/cluster0?retryWrites=true&w=majority")
 BOT_TOKEN = getenv("BOT_TOKEN", "5740372650:AAEms7wE6IFlhE6kwzvwTUABNK3qEbTnneM")
 ALIVE_PIC = getenv("ALIVE_PIC","https://te.legra.ph/file/038cfdb12f907f2f260ba.jpg")
 ALIVE_TEXT = getenv("ALIVE_TEXT","࿐ཽ༵ ⋆‌⃝Pi͢͢͢kสcђu༆༒°̥̥̥̥̥̥̥̥̥̥̥̥̥◎✧•๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋")
